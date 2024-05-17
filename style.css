@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.countent{
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(218, 214, 214);
+   position: relative;
+}
+.title{
+    color: rgb(70, 70, 235);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+}
+.title:hover{
+    color: blue;
+}
+
+
+
+.icone{
+    height: 30px;
+    position: absolute;
+    top: 240px;
+    left: 33px;
+    width: 30px;
+    display: block;
+
+}
+
+
+ .iconedown{
+display: none;
+height: 30px;
+position: absolute;
+top: 240px;
+left: 33px;
+width: 30px;
+ }
+
+ 
+.footer-line{
+    width: 1000px;
+    height: 2px;
+    background-color: rgb(139, 139, 139);
+   position: absolute;
+   left: 6rem;
+   
+}
+.menue {
+    width: 1200px;
+    height: 0;
+    overflow: hidden;
+    background-color: rgb(218, 214, 214);
+    position: absolute;
+    top: 18rem;
+    transition-delay: 100ms;
+    transition-duration: 2s;
+    transition-property: height;
+    
+}
+.menue.show {
+   height: 300px; 
+}
+
+.menue-title{
+    color: rgb(70, 70, 235);
+    position: absolute;
+    right: 5px;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+.itemdiscrip{
+    color: rgb(70, 70, 235);
+}
+
+.id{
+    display: flex;
+    
+
+}
+.iddetali{
+  color: grey;
+padding: 10px;
+}
+.iddiscrip{
+color: rgb(70, 70, 235);
+
+}
+.buttons{
+    position: absolute;
+    top: 235px;
+    right: 5px;
+}
+
+
+.btnone{
+ background-color: darkgreen;
+ color: white;
+ width: 8rem;
+ padding: 12px;
+ border-radius: 15px;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}
+.btntwo{
+    background-color: darkgoldenrod;
+    color: white;
+    width: 8rem;
+    padding: 12px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
